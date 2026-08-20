@@ -6,6 +6,5 @@ function isPrime($num) {
     }
     return true;
 }
-
 echo isPrime(25) ? "Prime" : "Not Prime"; 
 ?>
