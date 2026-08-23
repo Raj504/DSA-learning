@@ -14,8 +14,8 @@ def divide_two_numbers(a, b):
     divide = a / b
     return divide
 
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
+number1 = float(input("Enter first number: "))
+number2 = float(input("Enter second number: "))
 result1 = add_two_number(number1, number2)
 result2 = subtract_two_number(number1, number2)
 result3 = multiply_two_numbers(number1, number2)
